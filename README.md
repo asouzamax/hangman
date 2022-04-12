@@ -15,7 +15,7 @@ This project aims to demonstrate the implementation of the hangman game as expla
 * Flyway for migrations
 * Lombok to decrease the verbosity of classes
 * Model Mapper to avoid the boilerplate between representation and domain models [java-faker](http://modelmapper.org/)
-* Unit and integration tests (JUnit e Mockito)
+* Unit and integration tests (JUnit and Mockito)
 * Dynamic values for tests with [java-faker](https://java-faker.herokuapp.com)
 * Swagger for API documentation: http://localhost:8080/swagger-ui.html
 * Docker's script to run the app. Item 3.1
