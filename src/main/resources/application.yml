@@ -1,0 +1,23 @@
+aplicacao:
+  nome: '@project.name@'
+  descricao: '@project.description@'
+  versao: '@project.version@'
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:hangmangame
+    username: h2
+    password:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  flyway:
+    enabled: true
+
+    springdoc:
+      api-docs:
+        path: /api-docs
